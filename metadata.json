@@ -1,0 +1,8 @@
+{
+  "name": "Journee Suites",
+  "description": "A clean, modern single-room studio booking platform with an editorial aesthetic, real-time availability, and admin management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

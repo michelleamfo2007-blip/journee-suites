@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,700;0,900;1,900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Playfair Display", serif;
+  --color-editorial-bg: #F9F8F7;
+  --color-editorial-text: #1F2937;
+}
+
+@layer base {
+  body {
+    @apply font-sans text-editorial-text bg-editorial-bg antialiased;
+  }
+}
+
+.serif {
+  @apply font-display;
+}
+
+.scroll-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scroll-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.rdp-root {
+  --rdp-accent-color: #1F2937;
+  --rdp-accent-background-color: #F3F4F6;
+  margin: 0;
+  font-family: inherit;
+}
+
+.rdp-day_selected {
+  @apply bg-editorial-text! text-white!;
+}
+
+.rdp-day_range_middle {
+  @apply bg-slate-100! text-editorial-text!;
+}
+
+.rdp-day_disabled {
+  @apply opacity-30 line-through!;
+}
+
