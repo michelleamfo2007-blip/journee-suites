@@ -12,15 +12,15 @@
 **Journee Suites** is a high-fidelity boutique stay application designed for a "Compact Luxury" user experience. The site features a minimalist, editorial design language with smooth "flying" animations and a fully interactive perspective tour.
 
 ### Key Features
-- **🌍 Localized Experience**: Fully rebranded for the Accra, Achimota district.
-- **✨ Flying Animations**: Scroll-reveal entrance animations powered by Framer Motion.
-- **📸 Perspective Tour**: Interactive virtual tour with high-resolution architectural imagery.
-- **📱 Responsive Layout**: Optimized for all devices, from desktop to mobile.
-- **📅 Smart Booking**: Interactive date selection and guest management (up to 4 guests).
+-  Localized Experience**: Fully rebranded for the Accra, Achimota district.
+-  Flying Animations**: Scroll-reveal entrance animations powered by Framer Motion.
+-  Perspective Tour**: Interactive virtual tour with high-resolution architectural imagery.
+-  Responsive Layout**: Optimized for all devices, from desktop to mobile.
+-  Smart Booking**: Interactive date selection and guest management (up to 4 guests).
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Frontend**: React 19 + TypeScript
 - **Styling**: Tailwind CSS 4
@@ -31,7 +31,7 @@
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Node.js (Latest LTS recommended)
@@ -56,7 +56,7 @@
    npm run build
    ```
 
-## 📩 Email Notifications
+##  Email Notifications
 
 The app is integrated with **EmailJS** to send instant notifications for both you and your guests.
 
@@ -77,7 +77,7 @@ The app is integrated with **EmailJS** to send instant notifications for both yo
 
 ---
 
-## 📍 Location
+##  Location
 **Accra • Achimota • Ghana**
 *Studio 402*
 
